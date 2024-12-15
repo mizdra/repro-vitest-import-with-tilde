@@ -1,0 +1,16 @@
+{
+  "name": "repro-vitest-import-with-tilde",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:vitest": "vitest vitest.test.mjs",
+    "test:node-test": "node --test node-test.test.mjs"
+  },
+  "keywords": [],
+  "author": "mizdra <pp.mizdra@gmail.com>",
+  "license": "CC0-1.0",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
