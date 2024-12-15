@@ -6,6 +6,7 @@ import path from 'node:path';
 import assert from 'node:assert';
 
 const modulePath = './~.mjs'; // passed
+// const modulePath = './|.mjs'; // passed
 // const modulePath = './a.mjs'; // passed
 
 test('import test 1', async () => {

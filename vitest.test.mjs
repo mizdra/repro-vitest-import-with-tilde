@@ -5,6 +5,7 @@ import url from 'node:url';
 import path from 'node:path';
 
 const modulePath = './~.mjs'; // failed
+// const modulePath = './|.mjs'; // failed
 // const modulePath = './a.mjs'; // passed
 
 test('import test 1', async () => {
